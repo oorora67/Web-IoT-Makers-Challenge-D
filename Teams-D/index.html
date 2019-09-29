@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1"
+      name="viewport"
+    />
+    <title>LED Blink</title>
+    <script src="node_modules/@chirimen-raspi/polyfill/polyfill.js"></script>
+    <script src="node_modules/@chirimen-raspi/chirimen-driver-i2c-grove-gesture/PAJ7620.js"></script>
+    <script src="./main.js" defer></script>
+    <style type="text/css">
+      #ledView{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: rgb(0, 0, 0);
+        position: relative; 
+        top: 300px;
+        left: 300px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h3 id = "head">TEST</h3>
+    <div id = "ledView"></div>
+    
+  </body>
+</html>
