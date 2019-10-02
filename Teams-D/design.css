@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#snow{
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    position: relative; 
+    top: 0px;
+    left: 30px;
+}
+#pa{
+    position: relative; 
+    top: 50px;
+    left: 50px;
+}

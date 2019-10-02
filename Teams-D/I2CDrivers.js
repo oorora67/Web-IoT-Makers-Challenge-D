@@ -1,0 +1,12 @@
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/ADS1015.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/ADT7410.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/GP2Y0E03.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/GROVEACCELEROMETER.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/GROVELIGHT.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/GroveTouch.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/OledDisplay.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/PAJ7620.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/PCA9685.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/S11059.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/VEML6070.js"></script>');
+document.write('<script src="node_modules/@chirimen-raspi/chirimen-driver/VL53L0X.js"></script>');
