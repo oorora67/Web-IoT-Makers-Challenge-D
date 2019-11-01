@@ -8,6 +8,7 @@
     />
     <title>積雪メータ</title>
     <script src="node_modules/@chirimen-raspi/polyfill/polyfill.js"></script>
+    <script src="node_modules/@chirimen-raspi/polyfill/microBitBLE.js"></script>
     <script src="./I2CDrivers.js"></script>
     <script src="./main.js" defer></script>
     <link rel="stylesheet" href="design.css">
@@ -24,7 +25,15 @@
       </div>
     </div>
     -->
-    <h3 id = "pa"> 100%</h3>
-    
+    <h3 id = "pa"> 1000 mm</h3>
+    <div id="BLE">
+      <hr>
+      <form name="js">
+          <input type="button" value="Connect" onclick="connect();"/> 
+          <input type="button" value="Disconnect" onclick="disconnect();" /> 
+      </form>
+      <div id="msg">----</div>
+      <hr>
+    </div>
   </body>
 </html>
